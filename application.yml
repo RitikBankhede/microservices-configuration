@@ -1,6 +1,6 @@
-spring :
+ltspring :
   application:
-    name: ConfigServer
+    name: ConfigServer-default
 eureka:
   instance:
     prefer-ip-address:  true
