@@ -1,4 +1,4 @@
-ltspring :
+spring :
   application:
     name: ConfigServer-default
 eureka:
