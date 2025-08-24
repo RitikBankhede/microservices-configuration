@@ -6,3 +6,12 @@ eureka:
     register-with-eureka: true
     service-url:
       defaultZone: http://localhost:8761/eureka  
+ spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: https://dev-cgc5lj7exr6j10fu.us.auth0.com/   # your Auth0 domain
+          audiences:
+            - http://localhost:8080/                           # your API Identifier (Audience)
+     
